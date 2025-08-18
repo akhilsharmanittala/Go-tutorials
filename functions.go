@@ -32,6 +32,9 @@ func named_return_values(a, b int) (sum int, diff int) {
 }
 
 func Functions() {
+	// This is a closure that takes two integers and returns their sum
+	// closures are functions that can capture variables from their surrounding context
+	// this is useful for creating functions that can be customized with specific values
 	sum := func(a int, b int) int {
 		return a + b
 	}
