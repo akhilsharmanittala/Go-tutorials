@@ -34,6 +34,8 @@ func main() {
 	fmt.Println("Goodbye!")
 	hello_static_name("Lavanya")
 	hello_dynamic_name()
+	Functions() // Call the functions defined in functions.go
+	println("End of the program.")
 }
 
 // This program prints "Hello, World!" to the console.
