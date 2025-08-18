@@ -7,3 +7,5 @@ executio of go programming language:
 
 
 if you want to print the output of the binary execute the binary like ./hello
+
+binary usually more in size compared to the actual go file.
