@@ -1,0 +1,2 @@
+Hi, this repo is for go lang tutorials with examples learnt from the ceritification course from udemy:
+https://www.udemy.com/course/go-data-structures-algorithms-and-design-patterns-with-go/learn/lecture/13351522#overview
