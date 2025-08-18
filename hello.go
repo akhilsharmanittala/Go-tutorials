@@ -35,6 +35,7 @@ func main() {
 	hello_static_name("Lavanya")
 	hello_dynamic_name()
 	Functions() // Call the functions defined in functions.go
+	cs()        // Call the control statements defined in control_statements.go
 	println("End of the program.")
 }
 
