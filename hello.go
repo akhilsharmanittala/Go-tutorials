@@ -27,6 +27,7 @@ func hello_dynamic_name() {
 
 // main function to execute the program
 func main() {
+
 	hello_world()
 	hello_static_name("Akhil")
 	fmt.Println("This is a simple Go program demonstrating basic output.")
@@ -38,8 +39,9 @@ func main() {
 	cs()        // Call the control statements defined in control_statements.go
 	slices()    // Call the slices function defined in slices.go
 	//maps are the data structure that stores data in key value pairs
-	maps()    // Call the maps function defined in maps.go
-	structs() // Call the Structs function defined in structs.go
+	maps()             // Call the maps function defined in maps.go
+	structs()          // Call the Structs function defined in structs.go
+	SingleLinkedList() // Call the linked list function defined in linked_list.go
 	println("End of the program.")
 }
 
