@@ -36,6 +36,10 @@ func main() {
 	hello_dynamic_name()
 	Functions() // Call the functions defined in functions.go
 	cs()        // Call the control statements defined in control_statements.go
+	slices()    // Call the slices function defined in slices.go
+	//maps are the data structure that stores data in key value pairs
+	maps() // Call the maps function defined in maps.go
+
 	println("End of the program.")
 }
 
