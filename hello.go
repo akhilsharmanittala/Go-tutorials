@@ -39,9 +39,10 @@ func main() {
 	cs()        // Call the control statements defined in control_statements.go
 	slices()    // Call the slices function defined in slices.go
 	//maps are the data structure that stores data in key value pairs
-	maps()             // Call the maps function defined in maps.go
-	structs()          // Call the Structs function defined in structs.go
-	SingleLinkedList() // Call the linked list function defined in linked_list.go
+	maps()    // Call the maps function defined in maps.go
+	structs() // Call the Structs function defined in structs.go
+	//SingleLinkedList() // Call the linked list function defined in linked_list.go
+	channels() // Call the channels function defined in channels.go
 	println("End of the program.")
 }
 
