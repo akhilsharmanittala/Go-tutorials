@@ -28,7 +28,7 @@ func hello_dynamic_name() {
 // main function to execute the program
 func main() {
 
-	hello_world()
+	/*hello_world()
 	hello_static_name("Akhil")
 	fmt.Println("This is a simple Go program demonstrating basic output.")
 	hello_static_name("Jhaishna")
@@ -42,7 +42,8 @@ func main() {
 	maps()    // Call the maps function defined in maps.go
 	structs() // Call the Structs function defined in structs.go
 	//SingleLinkedList() // Call the linked list function defined in linked_list.go
-	channels() // Call the channels function defined in channels.go
+	channels() // Call the channels function defined in channels.go*/
+	fanin()
 	println("End of the program.")
 }
 
