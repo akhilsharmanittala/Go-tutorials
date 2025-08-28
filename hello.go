@@ -42,8 +42,9 @@ func main() {
 	maps()    // Call the maps function defined in maps.go
 	structs() // Call the Structs function defined in structs.go
 	//SingleLinkedList() // Call the linked list function defined in linked_list.go
-	channels() // Call the channels function defined in channels.go*/
-	fanin()
+	channels() // Call the channels function defined in channels.go
+	fanin()*/
+	fanout()
 	println("End of the program.")
 }
 

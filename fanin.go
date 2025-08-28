@@ -1,5 +1,7 @@
 package main
 
+//fanIn demonstrates the fan-in pattern using goroutines and channels
+// merging multiple channels into a single channel
 import (
 	"fmt"
 	"math/rand"
@@ -10,6 +12,9 @@ func sleep() {
 	time.Sleep(time.Duration(rand.Intn(1000)) * time.Millisecond)
 }
 func producer(ch chan<- int, name string) {
+	// each producer will produce data to its own channel
+	// so each producer will have its own name to identify it
+	// and will print the name along with the produced value
 	for {
 		sleep()
 		num := rand.Intn(100)
